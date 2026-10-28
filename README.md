@@ -1,4 +1,4 @@
-# AICTE NEXUS — Enhanced hackathon edition
+# AICTE NEXUS
 
 A six-screen grievance workspace built with HTML, CSS, JavaScript, FastAPI and SQLAlchemy. This enhanced copy preserves the original project and adds a refined teal/navy interface, clearer metrics, responsive drawer navigation, keyboard focus styles, form labels, and a single-server launcher.
 
