@@ -1,0 +1,2 @@
+"""AICTE NEXUS backend application."""
+

@@ -1,0 +1,708 @@
+{
+  "institutionsData": [
+    {
+      "aicteId": "1-482910412",
+      "name": "Satpura Institute of Engineering & Tech",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "region": "Central (Bhopal RO)",
+      "type": "Private Self-Financed",
+      "intake": 1140,
+      "riskScore": 92,
+      "eoaStatus": "EoA 2026-27 Under Hold",
+      "eoaHold": true,
+      "holdReason": "Extension of Approval (EoA) Flagged by Public Grievance + Regulation + Vigilance Bureaus",
+      "summary": "Multiple high-severity complaints regarding 7 months unpaid faculty salaries in Grievance Cell alongside suspected forged payroll affidavits submitted to Approval Bureau for EoA renewal."
+    },
+    {
+      "aicteId": "1-391048219",
+      "name": "Gandak Valley Institute of Technology",
+      "city": "Muzaffarpur",
+      "state": "Bihar",
+      "region": "Eastern (Kolkata RO)",
+      "type": "Private Self-Financed",
+      "intake": 780,
+      "riskScore": 88,
+      "eoaStatus": "Standing Hearing Committee (SHC)",
+      "eoaHold": true,
+      "holdReason": "Flagged by Anti-Ragging Cell + Approval Bureau (Hostel Safety & Lab Deficit)",
+      "summary": "Severe hostel ragging complaint under active investigation in Anti-Ragging Cell while physical EVC audit flagged 42% shortage in core Mechanical & AI/ML laboratory equipment."
+    },
+    {
+      "aicteId": "1-772819304",
+      "name": "Utkal Regional College of Management",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "region": "Eastern (Kolkata RO)",
+      "type": "Private PGDM Institution",
+      "intake": 420,
+      "riskScore": 84,
+      "eoaStatus": "EoA Flagged for Audit",
+      "eoaHold": true,
+      "holdReason": "Flagged by Regulation Bureau + Finance Bureau (Unapproved Intake & Fee Capitation)",
+      "summary": "Admitted 65 excess students beyond AICTE sanctioned intake and collected unreceipted development fees; linked to PG scholarship utilization discrepancy in Finance Bureau."
+    },
+    {
+      "aicteId": "1-619283745",
+      "name": "Shivalik Foothills School of Architecture",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "region": "Northern (Kanpur RO)",
+      "type": "Private Technical Institution",
+      "intake": 300,
+      "riskScore": 79,
+      "eoaStatus": "Show Cause Notice Issued",
+      "eoaHold": true,
+      "holdReason": "Flagged by Approval Bureau + Public Grievance Cell (Fire Safety NOC Expiry & Original Certificates Withheld)",
+      "summary": "Municipal Fire Safety NOC expired 11 months ago; students also filed CPGRAMS grievances regarding withholding of original mark sheets and security deposits."
+    },
+    {
+      "aicteId": "1-502938471",
+      "name": "Malwa Plateau Institute of Technology",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "region": "Central (Bhopal RO)",
+      "type": "Private Self-Financed",
+      "intake": 960,
+      "riskScore": 86,
+      "eoaStatus": "EoA 2026-27 Under Hold",
+      "eoaHold": true,
+      "holdReason": "Flagged by Vigilance / CVC Cell + Public Grievance Cell + Finance Bureau",
+      "summary": "CVC vigilance reference regarding duplicate faculty PAN entries (Ghost Faculty) appearing simultaneously on two college rosters, coupled with faculty PF/salary arrears."
+    },
+    {
+      "aicteId": "1-883920114",
+      "name": "Cauvery Delta College of Pharmacy & Tech",
+      "city": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "region": "Southern (Chennai RO)",
+      "type": "Private Self-Financed",
+      "intake": 540,
+      "riskScore": 73,
+      "eoaStatus": "Conditional EoA Review",
+      "eoaHold": false,
+      "holdReason": "Monitored by Regulation Bureau + Grievance Cell",
+      "summary": "Complaints regarding Principal qualification norms and delayed refund of admission cancellation fees under AICTE fee refund policy."
+    },
+    {
+      "aicteId": "1-912039485",
+      "name": "Deccan Institute of Aeronautical & Tech",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "region": "South-Central (Hyderabad RO)",
+      "type": "Private Self-Financed",
+      "intake": 840,
+      "riskScore": 81,
+      "eoaStatus": "EoA 2026-27 Under Hold",
+      "eoaHold": true,
+      "holdReason": "Flagged by Approval Bureau + Anti-Ragging Cell",
+      "summary": "Deficit in propulsion lab safety compliance and non-constitution of statutory Anti-Ragging Squad as mandated by AICTE regulations."
+    },
+    {
+      "aicteId": "1-204918273",
+      "name": "Sahyadri Coastal College of Engineering",
+      "city": "Ratnagiri",
+      "state": "Maharashtra",
+      "region": "Western (Mumbai RO)",
+      "type": "Private Self-Financed",
+      "intake": 600,
+      "riskScore": 68,
+      "eoaStatus": "EoA Active (Under Watch)",
+      "eoaHold": false,
+      "holdReason": "Monitored by Finance Bureau + Public Grievance Cell",
+      "summary": "Delayed disbursement of AICTE Pragati & Saksham scholarship verification at institute nodal level."
+    }
+  ],
+  "casesData": [
+    {
+      "caseId": "CMP-2026-0015",
+      "aicteId": "1-482910412",
+      "institutionName": "Satpura Institute of Engineering & Tech",
+      "bureau": "Public Grievance Cell",
+      "category": "Faculty Salary Non-Payment",
+      "title": "Non-payment of faculty salaries for 7 consecutive months across CSE & ECE departments",
+      "priority": "Critical",
+      "status": "In Progress",
+      "officer": "Shri A. K. Sharma (Grievance Nodal)",
+      "source": "CPGRAMS",
+      "complainant": "Faculty Member (18 Joint Signatories)",
+      "filedDate": "2026-05-15",
+      "dueDate": "2026-06-20",
+      "overdueDays": 127,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0021",
+        "CMP-2026-0068"
+      ],
+      "resolutionNotes": "Show-cause notice issued on 2026-07-02; awaiting bank statement verification from State DTE."
+    },
+    {
+      "caseId": "CMP-2026-0021",
+      "aicteId": "1-482910412",
+      "institutionName": "Satpura Institute of Engineering & Tech",
+      "bureau": "Approval Bureau",
+      "category": "Unapproved Intake",
+      "title": "Suspected fabricated salary acquaintance roll & Form-16 uploaded for AY 2026-27 EoA renewal",
+      "priority": "Critical",
+      "status": "Under Review",
+      "officer": "Dr. Meenakshi Iyer (EoA Scrutiny)",
+      "source": "EoA Scrutiny",
+      "complainant": "EVC Inspection Team",
+      "filedDate": "2026-06-10",
+      "dueDate": "2026-07-15",
+      "overdueDays": 102,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0015",
+        "CMP-2026-0068"
+      ],
+      "resolutionNotes": "Cross-flagged with CMP-2026-0015 in Public Grievance Cell. EoA placed on hold pending Standing Hearing Committee."
+    },
+    {
+      "caseId": "CMP-2026-0043",
+      "aicteId": "1-391048219",
+      "institutionName": "Gandak Valley Institute of Technology",
+      "bureau": "Anti-Ragging Cell",
+      "category": "Ragging / Hostel Safety",
+      "title": "Severe ragging and physical intimidation reported in Boys Hostel Block-C; FIR copy attached",
+      "priority": "Critical",
+      "status": "In Progress",
+      "officer": "Prof. S. N. Banerjee (Anti-Ragging Desk)",
+      "source": "Anti-Ragging Helpline",
+      "complainant": "Student / Parent",
+      "filedDate": "2026-07-12",
+      "dueDate": "2026-07-26",
+      "overdueDays": 91,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0066"
+      ],
+      "resolutionNotes": "Surprise inspection ordered; institute failed to submit CCTV footage within 48-hour statutory window."
+    },
+    {
+      "caseId": "CMP-2026-0068",
+      "aicteId": "1-482910412",
+      "institutionName": "Satpura Institute of Engineering & Tech",
+      "bureau": "Vigilance / CVC Cell",
+      "category": "Faculty Salary Non-Payment",
+      "title": "Whistleblower tip on diversion of student tuition fee escrow account & forged bank certificate",
+      "priority": "Critical",
+      "status": "Under Review",
+      "officer": "Shri Vikramaditya Rao (CVC Liaison)",
+      "source": "Vigilance Tip",
+      "complainant": "Whistleblower (Anonymous)",
+      "filedDate": "2026-07-28",
+      "dueDate": "2026-08-18",
+      "overdueDays": 68,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0015",
+        "CMP-2026-0021"
+      ],
+      "resolutionNotes": "Forensic audit of bank scroll initiated jointly with Regulation & Approval Bureaus."
+    },
+    {
+      "caseId": "CMP-2026-0066",
+      "aicteId": "1-391048219",
+      "institutionName": "Gandak Valley Institute of Technology",
+      "bureau": "Approval Bureau",
+      "category": "Lab Infrastructure Deficit",
+      "title": "EVC surprise audit found 42% deficit in CAD/CAM & High-Voltage Lab equipment and non-functional warden cell",
+      "priority": "High",
+      "status": "Awaiting Information",
+      "officer": "Dr. Meenakshi Iyer (EoA Scrutiny)",
+      "source": "EoA Scrutiny",
+      "complainant": "EVC Inspection Team",
+      "filedDate": "2026-08-02",
+      "dueDate": "2026-08-30",
+      "overdueDays": 56,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0043"
+      ],
+      "resolutionNotes": "Compliance affidavit requested from Principal; linked to hostel governance failure in CMP-2026-0043."
+    },
+    {
+      "caseId": "CMP-2026-0076",
+      "aicteId": "1-772819304",
+      "institutionName": "Utkal Regional College of Management",
+      "bureau": "Regulation Bureau",
+      "category": "Unapproved Intake",
+      "title": "Admission of 65 excess PGDM students above AICTE approved intake of 420 for AY 2026-27",
+      "priority": "Critical",
+      "status": "In Progress",
+      "officer": "Smt. Kavita Deshmukh (Regulation)",
+      "source": "State DTE Referral",
+      "complainant": "State DTE Officer",
+      "filedDate": "2026-08-14",
+      "dueDate": "2026-09-05",
+      "overdueDays": 50,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0042"
+      ],
+      "resolutionNotes": "Penalty calculation under AICTE Approval Process Handbook Chapter VIII initiated."
+    },
+    {
+      "caseId": "CMP-2026-0042",
+      "aicteId": "1-772819304",
+      "institutionName": "Utkal Regional College of Management",
+      "bureau": "Finance Bureau",
+      "category": "Fee Structure Violation",
+      "title": "Collection of unreceipted capitation fee of ₹85,000 per student & mismatch in scholarship utilization certificate",
+      "priority": "High",
+      "status": "Under Review",
+      "officer": "Shri P. Chidambaram Nair (Finance Cell)",
+      "source": "CPGRAMS",
+      "complainant": "Student / Parent",
+      "filedDate": "2026-08-19",
+      "dueDate": "2026-09-12",
+      "overdueDays": 43,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0076"
+      ],
+      "resolutionNotes": "Fee Regulatory Committee report sought from Odisha State Government."
+    },
+    {
+      "caseId": "CMP-2026-0038",
+      "aicteId": "1-619283745",
+      "institutionName": "Shivalik Foothills School of Architecture",
+      "bureau": "Approval Bureau",
+      "category": "Fire Safety Expiry",
+      "title": "Municipal Fire & Structural Safety NOC expired in Nov 2025; renewal certificate not uploaded on AICTE portal",
+      "priority": "High",
+      "status": "Awaiting Information",
+      "officer": "Dr. R. K. Verma (Nodal Desk)",
+      "source": "EoA Scrutiny",
+      "complainant": "EVC Inspection Team",
+      "filedDate": "2026-08-25",
+      "dueDate": "2026-09-20",
+      "overdueDays": 35,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0051"
+      ],
+      "resolutionNotes": "Final 7-day reminder issued before placing institution under No-Admission category."
+    },
+    {
+      "caseId": "CMP-2026-0051",
+      "aicteId": "1-619283745",
+      "institutionName": "Shivalik Foothills School of Architecture",
+      "bureau": "Public Grievance Cell",
+      "category": "Fee Structure Violation",
+      "title": "Withholding of original 10th/12th mark sheets and refusal to refund fee upon student withdrawal within counseling deadline",
+      "priority": "High",
+      "status": "In Progress",
+      "officer": "Shri A. K. Sharma (Grievance Nodal)",
+      "source": "AICTE Portal",
+      "complainant": "Student / Parent",
+      "filedDate": "2026-09-01",
+      "dueDate": "2026-09-28",
+      "overdueDays": 27,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0038"
+      ],
+      "resolutionNotes": "Directed Registrar to return original certificates within 72 hours per AICTE mandatory norms."
+    },
+    {
+      "caseId": "CMP-2026-0059",
+      "aicteId": "1-502938471",
+      "institutionName": "Malwa Plateau Institute of Technology",
+      "bureau": "Vigilance / CVC Cell",
+      "category": "Unapproved Intake",
+      "title": "24 Faculty PAN & Aadhaar IDs found duplicated across two sister institutions during biometric deduplication",
+      "priority": "Critical",
+      "status": "In Progress",
+      "officer": "Shri Vikramaditya Rao (CVC Liaison)",
+      "source": "Vigilance Tip",
+      "complainant": "EVC Inspection Team",
+      "filedDate": "2026-09-05",
+      "dueDate": "2026-09-30",
+      "overdueDays": 25,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0063"
+      ],
+      "resolutionNotes": "Biometric attendance logs and EPFO challans summoned from Regional PF Commissioner."
+    },
+    {
+      "caseId": "CMP-2026-0063",
+      "aicteId": "1-502938471",
+      "institutionName": "Malwa Plateau Institute of Technology",
+      "bureau": "Public Grievance Cell",
+      "category": "Faculty Salary Non-Payment",
+      "title": "Deduction of 40% salary under guise of research development fund and non-deposit of EPF for 14 months",
+      "priority": "High",
+      "status": "Submitted",
+      "officer": "Shri A. K. Sharma (Grievance Nodal)",
+      "source": "CPGRAMS",
+      "complainant": "Faculty Member",
+      "filedDate": "2026-09-12",
+      "dueDate": "2026-10-08",
+      "overdueDays": 17,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0059"
+      ],
+      "resolutionNotes": "Assigned to Nodal Grievance Officer; AI engine linked with Vigilance Ghost Faculty case CMP-2026-0059."
+    },
+    {
+      "caseId": "CMP-2026-0071",
+      "aicteId": "1-912039485",
+      "institutionName": "Deccan Institute of Aeronautical & Tech",
+      "bureau": "Approval Bureau",
+      "category": "Lab Infrastructure Deficit",
+      "title": "Sub-sonic wind tunnel and avionics simulation lab non-operational during academic inspection",
+      "priority": "High",
+      "status": "In Progress",
+      "officer": "Dr. Meenakshi Iyer (EoA Scrutiny)",
+      "source": "EoA Scrutiny",
+      "complainant": "EVC Inspection Team",
+      "filedDate": "2026-09-18",
+      "dueDate": "2026-10-15",
+      "overdueDays": 10,
+      "isOverdue": true,
+      "linkedCases": [
+        "CMP-2026-0074"
+      ],
+      "resolutionNotes": "Deficiency report uploaded; awaiting compliance video geo-tagged verification."
+    },
+    {
+      "caseId": "CMP-2026-0074",
+      "aicteId": "1-912039485",
+      "institutionName": "Deccan Institute of Aeronautical & Tech",
+      "bureau": "Anti-Ragging Cell",
+      "category": "Ragging / Hostel Safety",
+      "title": "Non-constitution of Anti-Ragging Monitoring Cell and absence of warden in off-campus leased hostel",
+      "priority": "Medium",
+      "status": "Under Review",
+      "officer": "Prof. S. N. Banerjee (Anti-Ragging Desk)",
+      "source": "Anti-Ragging Helpline",
+      "complainant": "Student / Parent",
+      "filedDate": "2026-10-02",
+      "dueDate": "2026-11-02",
+      "overdueDays": 0,
+      "isOverdue": false,
+      "linkedCases": [
+        "CMP-2026-0071"
+      ],
+      "resolutionNotes": "Notice served to Director; 8 days remaining in SLA window."
+    },
+    {
+      "caseId": "CMP-2026-0029",
+      "aicteId": "1-883920114",
+      "institutionName": "Cauvery Delta College of Pharmacy & Tech",
+      "bureau": "Regulation Bureau",
+      "category": "Unapproved Intake",
+      "title": "Faculty-to-student ratio fell below 1:20 in B.Pharm program after 9 senior faculty resignations",
+      "priority": "Medium",
+      "status": "In Progress",
+      "officer": "Smt. Kavita Deshmukh (Regulation)",
+      "source": "State DTE Referral",
+      "complainant": "State DTE Officer",
+      "filedDate": "2026-10-05",
+      "dueDate": "2026-11-05",
+      "overdueDays": 0,
+      "isOverdue": false,
+      "linkedCases": [
+        "CMP-2026-0033"
+      ],
+      "resolutionNotes": "Recruitment advertisement and university selection committee minutes requested."
+    },
+    {
+      "caseId": "CMP-2026-0033",
+      "aicteId": "1-883920114",
+      "institutionName": "Cauvery Delta College of Pharmacy & Tech",
+      "bureau": "Public Grievance Cell",
+      "category": "Fee Structure Violation",
+      "title": "Refund of ₹62,000 tuition fee resolved after AICTE Grievance Cell intervention",
+      "priority": "Medium",
+      "status": "Resolved",
+      "officer": "Shri A. K. Sharma (Grievance Nodal)",
+      "source": "AICTE Portal",
+      "complainant": "Student / Parent",
+      "filedDate": "2026-08-10",
+      "dueDate": "2026-09-10",
+      "overdueDays": 0,
+      "isOverdue": false,
+      "linkedCases": [
+        "CMP-2026-0029"
+      ],
+      "resolutionNotes": "Verified NEFT UTR #SBIN26249103845 of ₹62,000 credited to complainant student bank account on 2026-09-06."
+    },
+    {
+      "caseId": "CMP-2026-0019",
+      "aicteId": "1-204918273",
+      "institutionName": "Sahyadri Coastal College of Engineering",
+      "bureau": "Finance Bureau",
+      "category": "Fee Structure Violation",
+      "title": "AICTE Pragati Scholarship batch verification completed and released for 14 female engineering students",
+      "priority": "Low",
+      "status": "Closed",
+      "officer": "Shri P. Chidambaram Nair (Finance Cell)",
+      "source": "AICTE Portal",
+      "complainant": "Student / Parent",
+      "filedDate": "2026-07-15",
+      "dueDate": "2026-08-15",
+      "overdueDays": 0,
+      "isOverdue": false,
+      "linkedCases": [],
+      "resolutionNotes": "PFMS disbursement batch #PFMS-2026-99812 verified and settled. Case closed with complainant confirmation."
+    }
+  ],
+  "aiSuggestionsData": [
+    {
+      "id": "AI-LINK-101",
+      "similarity": 94,
+      "relationshipType": "Cross-Bureau Causal Link",
+      "state": "Pending Review",
+      "aicteId": "1-482910412",
+      "institutionName": "Satpura Institute of Engineering & Tech",
+      "caseA": {
+        "id": "CMP-2026-0015",
+        "bureau": "Public Grievance Cell",
+        "summary": "Non-payment of faculty salaries for 7 consecutive months across CSE & ECE departments (CPGRAMS)"
+      },
+      "caseB": {
+        "id": "CMP-2026-0021",
+        "bureau": "Approval Bureau",
+        "summary": "Suspected fabricated salary acquaintance roll & Form-16 uploaded for AY 2026-27 EoA renewal"
+      },
+      "matchedEntities": [
+        "AICTE PID: 1-482910412",
+        "Faculty Salary Payroll",
+        "CSE/ECE Roster",
+        "AY 2026-27 Affidavit"
+      ],
+      "aiExplanation": "High-confidence contradiction: Institution claims 100% salary disbursement in Approval Bureau EoA affidavit while 18 faculty members have active unpaid salary grievances in Public Grievance Cell."
+    },
+    {
+      "id": "AI-LINK-102",
+      "similarity": 91,
+      "relationshipType": "Escalation Cluster",
+      "state": "Pending Review",
+      "aicteId": "1-482910412",
+      "institutionName": "Satpura Institute of Engineering & Tech",
+      "caseA": {
+        "id": "CMP-2026-0021",
+        "bureau": "Approval Bureau",
+        "summary": "Suspected fabricated salary acquaintance roll uploaded for EoA renewal"
+      },
+      "caseB": {
+        "id": "CMP-2026-0068",
+        "bureau": "Vigilance / CVC Cell",
+        "summary": "Whistleblower tip on diversion of student tuition fee escrow account & forged bank certificate"
+      },
+      "matchedEntities": [
+        "AICTE PID: 1-482910412",
+        "Forged Bank Scroll",
+        "Escrow Account Diversion"
+      ],
+      "aiExplanation": "CVC Vigilance tip corroborates the forged bank salary certificate flagged during Approval Bureau EoA scrutiny."
+    },
+    {
+      "id": "AI-LINK-103",
+      "similarity": 89,
+      "relationshipType": "Cross-Bureau Causal Link",
+      "state": "Pending Review",
+      "aicteId": "1-502938471",
+      "institutionName": "Malwa Plateau Institute of Technology",
+      "caseA": {
+        "id": "CMP-2026-0059",
+        "bureau": "Vigilance / CVC Cell",
+        "summary": "24 Faculty PAN & Aadhaar IDs found duplicated across two sister institutions (Ghost Faculty)"
+      },
+      "caseB": {
+        "id": "CMP-2026-0063",
+        "bureau": "Public Grievance Cell",
+        "summary": "Deduction of 40% salary under guise of research fund and non-deposit of EPF for 14 months"
+      },
+      "matchedEntities": [
+        "AICTE PID: 1-502938471",
+        "EPFO Challan Mismatch",
+        "Faculty PAN Roster"
+      ],
+      "aiExplanation": "EPFO non-deposit in Grievance Cell directly correlates with ghost faculty PAN duplication under investigation by Vigilance Cell."
+    },
+    {
+      "id": "AI-LINK-104",
+      "similarity": 87,
+      "relationshipType": "Cross-Bureau Causal Link",
+      "state": "Pending Review",
+      "aicteId": "1-772819304",
+      "institutionName": "Utkal Regional College of Management",
+      "caseA": {
+        "id": "CMP-2026-0076",
+        "bureau": "Regulation Bureau",
+        "summary": "Admission of 65 excess PGDM students above AICTE approved intake of 420"
+      },
+      "caseB": {
+        "id": "CMP-2026-0042",
+        "bureau": "Finance Bureau",
+        "summary": "Collection of unreceipted capitation fee of ₹85,000/student & scholarship utilization mismatch"
+      },
+      "matchedEntities": [
+        "AICTE PID: 1-772819304",
+        "PGDM Batch 2026",
+        "Unapproved Excess Admissions"
+      ],
+      "aiExplanation": "Excess unapproved admissions in Regulation Bureau explain the unreceipted capitation fee complaints filed with Finance Bureau."
+    },
+    {
+      "id": "AI-LINK-105",
+      "similarity": 93,
+      "relationshipType": "Duplicate",
+      "state": "Pending Review",
+      "aicteId": "1-482910412",
+      "institutionName": "Satpura Institute of Engineering & Tech",
+      "caseA": {
+        "id": "CMP-2026-0015",
+        "bureau": "Public Grievance Cell",
+        "summary": "CPGRAMS grievance: Non-payment of faculty salaries for 7 consecutive months (CSE/ECE)"
+      },
+      "caseB": {
+        "id": "CMP-2026-0068",
+        "bureau": "Vigilance / CVC Cell",
+        "summary": "Direct portal duplicate submission by same faculty group regarding 7-month salary arrears"
+      },
+      "matchedEntities": [
+        "AICTE PID: 1-482910412",
+        "93% Text Overlap",
+        "Same 18 Signatories"
+      ],
+      "aiExplanation": "Near-identical complaint text submitted via both CPGRAMS and AICTE Vigilance portal within 72 hours."
+    },
+    {
+      "id": "AI-LINK-106",
+      "similarity": 84,
+      "relationshipType": "Cross-Bureau Causal Link",
+      "state": "Pending Review",
+      "aicteId": "1-391048219",
+      "institutionName": "Gandak Valley Institute of Technology",
+      "caseA": {
+        "id": "CMP-2026-0043",
+        "bureau": "Anti-Ragging Cell",
+        "summary": "Severe ragging and physical intimidation reported in Boys Hostel Block-C"
+      },
+      "caseB": {
+        "id": "CMP-2026-0066",
+        "bureau": "Approval Bureau",
+        "summary": "EVC surprise audit found 42% lab deficit and non-functional hostel warden cell"
+      },
+      "matchedEntities": [
+        "AICTE PID: 1-391048219",
+        "Hostel Block-C Governance",
+        "Warden Absence"
+      ],
+      "aiExplanation": "EVC inspection finding of absent hostel warden in Approval Bureau substantiates the Anti-Ragging Cell incident."
+    },
+    {
+      "id": "AI-LINK-107",
+      "similarity": 82,
+      "relationshipType": "Cross-Bureau Causal Link",
+      "state": "Confirmed Link",
+      "aicteId": "1-619283745",
+      "institutionName": "Shivalik Foothills School of Architecture",
+      "caseA": {
+        "id": "CMP-2026-0038",
+        "bureau": "Approval Bureau",
+        "summary": "Municipal Fire & Structural Safety NOC expired in Nov 2025"
+      },
+      "caseB": {
+        "id": "CMP-2026-0051",
+        "bureau": "Public Grievance Cell",
+        "summary": "Withholding of original certificates upon student withdrawal citing campus safety concerns"
+      },
+      "matchedEntities": [
+        "AICTE PID: 1-619283745",
+        "Campus Fire Safety",
+        "Student Withdrawal"
+      ],
+      "aiExplanation": "Students withdrew admission citing unsafe building conditions (expired Fire NOC) and were denied certificate return."
+    }
+  ],
+  "auditLogsData": [
+    {
+      "timestamp": "2026-10-25 22:48:12",
+      "actionType": "STATUS_CHANGED",
+      "entityId": "CMP-2026-0038",
+      "actor": "Dr. R. K. Verma",
+      "bureau": "Approval Bureau",
+      "diff": "Status: Under Review → Awaiting Information | Final 7-day Show Cause Notice served for expired Fire Safety NOC.",
+      "hash": "0x9f81c4a2...3e19",
+      "isNew": false
+    },
+    {
+      "timestamp": "2026-10-25 21:15:04",
+      "actionType": "RELATIONSHIP_LINKED",
+      "entityId": "CMP-2026-0038 ↔ CMP-2026-0051",
+      "actor": "Dr. R. K. Verma",
+      "bureau": "Approval Bureau",
+      "diff": "AI-LINK-107 Confirmed (82% Match) | Linked Approval Bureau Fire NOC case with Grievance Cell Certificate Withholding case.",
+      "hash": "0x4b29e8d1...7a02",
+      "isNew": false
+    },
+    {
+      "timestamp": "2026-10-25 19:40:51",
+      "actionType": "NOTE_ADDED",
+      "entityId": "CMP-2026-0015",
+      "actor": "Shri A. K. Sharma",
+      "bureau": "Public Grievance Cell",
+      "diff": "Added Verification Note: \"State DTE Madhya Pradesh directed to verify bank salary scroll of Satpura Institute within 5 working days.\"",
+      "hash": "0x7c12a9f0...8b44",
+      "isNew": false
+    },
+    {
+      "timestamp": "2026-10-25 18:22:30",
+      "actionType": "SUGGESTIONS_REFRESHED",
+      "entityId": "ENGINE-BATCH-2026-10",
+      "actor": "System Cron / NLP Engine",
+      "bureau": "AI Correlation Engine",
+      "diff": "Scanned 76 active & historical cases across 6 bureaus | Identified 6 pending cross-bureau causal & duplicate links.",
+      "hash": "0x2d90f1c3...5e61",
+      "isNew": false
+    },
+    {
+      "timestamp": "2026-10-25 16:05:19",
+      "actionType": "BUREAU_ESCALATION",
+      "entityId": "CMP-2026-0021",
+      "actor": "Dr. Meenakshi Iyer",
+      "bureau": "Approval Bureau",
+      "diff": "Escalated AICTE PID 1-482910412 to Standing Hearing Committee (SHC) & placed EoA 2026-27 on Hold due to CMP-2026-0015.",
+      "hash": "0x6a31b7e8...9d10",
+      "isNew": false
+    },
+    {
+      "timestamp": "2026-10-25 14:50:08",
+      "actionType": "STATUS_CHANGED",
+      "entityId": "CMP-2026-0033",
+      "actor": "Shri A. K. Sharma",
+      "bureau": "Public Grievance Cell",
+      "diff": "Status: In Progress → Resolved | Verified NEFT UTR #SBIN26249103845 of ₹62,000 fee refund to student.",
+      "hash": "0x1e55d2a9...4c87",
+      "isNew": false
+    },
+    {
+      "timestamp": "2026-10-25 11:32:44",
+      "actionType": "NOTE_ADDED",
+      "entityId": "CMP-2026-0043",
+      "actor": "Prof. S. N. Banerjee",
+      "bureau": "Anti-Ragging Cell",
+      "diff": "Added Urgent Note: \"District SP & University Registrar notified regarding Gandak Valley Hostel Block-C ragging FIR.\"",
+      "hash": "0x8c74e0b1...2f33",
+      "isNew": false
+    },
+    {
+      "timestamp": "2026-10-24 17:19:02",
+      "actionType": "STATUS_CHANGED",
+      "entityId": "CMP-2026-0076",
+      "actor": "Smt. Kavita Deshmukh",
+      "bureau": "Regulation Bureau",
+      "diff": "Status: Under Review → In Progress | Initiated excess admission penalty computation for Utkal Regional College.",
+      "hash": "0x5a09c8e4...1b29",
+      "isNew": false
+    }
+  ]
+}
