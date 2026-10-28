@@ -18,9 +18,9 @@ from sqlalchemy import and_, func, or_, select
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 from sqlalchemy.orm import Session, selectinload
 
-from app.database import get_db
-from app.models import AuditEvent, Bureau, CaseLink, Complaint, Institution, WorkflowEvent, utc_now
-from app.schemas import (
+from .database import get_db
+from .models import AuditEvent, Bureau, CaseLink, Complaint, Institution, WorkflowEvent, utc_now
+from .schemas import (
     AuditEventCreate,
     AuditEventRead,
     BureauRead,

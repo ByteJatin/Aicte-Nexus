@@ -19,6 +19,26 @@ Use `python` instead of `py` if that is your installed Python command. Do not co
 
 Internet access is needed for the existing Tailwind CDN, Google Fonts and Font Awesome assets. Python package installation also needs Internet access.
 
+## Deploying on Vercel
+
+Use the repository root (`.`) as the Vercel Root Directory and **FastAPI** as the framework preset. Keep the default install command and leave Build Command and Output Directory overrides unset. The configured build script runs `python migrate.py` to apply schema upgrades before deployment. Do not use `python run.py` as a build command: it starts a long-running local server.
+
+The root `pyproject.toml` declares `backend.app.main:app` as the entrypoint, `requirements.txt` installs the backend dependencies, and `.python-version` selects Python 3.12. Package-relative imports allow Vercel to import the backend from the repository root. The same app serves the frontend and `/api`, so no separate frontend API URL is needed.
+
+For saved complaints, connect a hosted PostgreSQL database (for example, Neon through Vercel's Storage/Marketplace integration) and configure `DATABASE_URL` for the deployment environment. Standard `postgres://`, `postgresql://`, and SQLAlchemy `postgresql+psycopg://` URLs are accepted; provider SSL parameters are preserved. If the provider supplies `DATABASE_URL_UNPOOLED`, migrations use that direct connection while the API uses `DATABASE_URL`. Both URLs must point to the same database. Use a separate database/branch for Preview deployments so their migrations and writes do not affect Production.
+
+On Vercel, missing PostgreSQL configuration stops deployment with an explicit error; the app never falls back to temporary SQLite. Local development continues to use SQLite. Serverless PostgreSQL connections close after use so that pooling is handled by the hosted provider.
+
+Migrations run during the Vercel build, preserve existing rows, and apply only outstanding revisions. They create the schema and the existing synthetic institution/bureau reference rows. Existing local complaints are not automatically copied to PostgreSQL. To run migrations manually, set the database variables securely in `backend/.env` or the terminal environment (never commit their values), then run from the repository root:
+
+```powershell
+.\.venv\Scripts\python.exe migrate.py
+# Optional, once: insert synthetic demonstration complaints without overwriting rows.
+.\.venv\Scripts\python.exe -m backend.app.seed_demo
+```
+
+Push the deployment changes, then redeploy the new commit after connecting the database. Verify `/api/health` returns `{"status":"ok","database":"ok"}`, then open `/` and check the API status badge. Redeploying an older commit will retain its missing entrypoint configuration. PostgreSQL migration SQL is checked offline; a real hosted connection and live Vercel deployment still require verification in the target environment. This remains a prototype without login or authorization; use synthetic data for demonstrations.
+
 ## Verification
 
 From the project root:
@@ -30,7 +50,7 @@ $env:PYTHONPATH = (Join-Path (Get-Location) 'backend')
 
 Verified on 28 October 2026 using Python 3.12 and an isolated SQLite database:
 
-- 20 tests passed (one upstream Starlette/httpx deprecation warning).
+- 30 tests passed (one upstream Starlette/httpx deprecation warning), including a repository-root Vercel entrypoint test covering frontend assets and all dashboard API endpoints, hosted database URL handling, repeat migration preservation, and offline PostgreSQL migration SQL generation.
 - Fresh Alembic migration succeeded; `alembic check` detected no schema drift.
 - Second seed run inserted zero rows.
 - Both JavaScript files passed Node syntax checks.

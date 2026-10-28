@@ -9,8 +9,8 @@ from zoneinfo import ZoneInfo
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.database import SessionLocal
-from app.models import AuditEvent, Bureau, CaseLink, Complaint, Institution, WorkflowEvent
+from .database import SessionLocal
+from .models import AuditEvent, Bureau, CaseLink, Complaint, Institution, WorkflowEvent
 
 DEMO_DATA_PATH = Path(__file__).with_name("demo_data.json")
 IST = ZoneInfo("Asia/Kolkata")
